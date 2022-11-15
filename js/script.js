@@ -7,13 +7,13 @@ let arraySpesa = ["Pane", "Uova", "Latte", "Pesto", "Formaggio", "Caffè", "Trit
 let i = 0;
 while (i < arraySpesa.length) {
     i++;
-    console.log(arraySpesa[i] + "Stampato da ciclo while");
+    console.log(arraySpesa[i] + " stampato da ciclo while");
 }
 
 //Creo ciclo for per printare in console i valori di array
 for (let i = 0; i < arraySpesa.length; i++) {
 
-    console.log(arraySpesa[i] + "Stampato da ciclo for");
+    console.log(arraySpesa[i] + " stampato da ciclo for");
 
     document.getElementById("ulSpesa").innerHTML += '<li id="itemLista">' + arraySpesa[i] + '</li>';
 }
